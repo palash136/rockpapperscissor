@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock papper scessior</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="topsection">
+            <div class="heading">
+                <h1>Rock</h1>
+                <h1>Papper</h1>
+                <h1>Scissors</h1>
+            </div>
+            <div class="Score">
+                <div class="computerscore" >
+                <h3>Computer Score</h3>
+                <h1 id="computerscore">0</h1>
+            </div>
+                <div class="yourscore">
+                    <h3> YOUR Score</h3>
+                    <h1 id="userscore">0</h1>
+                </div>
+            </div>
+        </div>
+        <div class="middlesection" id="middlesection">
+            <img id="rock"   class="option"      src="rock.svg">
+            <img id="papper"   class="option"    src="papper.svg" >
+            <img id="scissor"  class="option"    src="scissor.svg">
+            <div class="button">
+           <button class="nxt-btn">NEXT</button>
+           <button class="rule-btn">RULES</button>
+        </div>
+        <div class="box">
+            <div class="btn-box">
+                <button class="icon-btn">&times</button>
+                <div class="rules">
+                    <h2>Game rules</h2>
+                    <li>
+                        rock beats scissor,scissor beats papper,and papper beats rock
+                    </li>
+                    <li>
+                         agree ahead of times wheather you'll count off rock,papper,scissor, shoot or just "rock,papper,scissor."
+                    </li>
+                    <li>
+                        use rock,papper,scissor to settle minor decision or simply play to pass the time
+                    </li>
+                    <li>
+                        
+                            if both players lay down the same hand, each player lays down another hand
+                        
+                    </li>
+           
+
+
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+        </div>
+        <div class="bottomsection" id="bottomsection">
+            <div class="user">
+                <h1>Your Picked</h1>
+                <img  id="userpicked" src="papper.svg" alt="">
+            </div>
+            <div class="result">
+                <h1>You win</h1>
+                <h3>against pc</h3>
+                <button id="playagain">PLAY AGAIN</button>
+            </div>
+            <div class="computer">
+                <h1>PC Picked</h1>
+                <img id="computerpicked" src="rock.svg" >
+            </div>
+           
+        <div class="showresult" id="showresult">
+            <img src="trophy.png" alt="">
+            <h1>HURRAY!!</h1>
+            <h2>YOU WON THE GAME</h2>
+            <button id="playagain">PLAY AGAIN</button>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+
+</html>

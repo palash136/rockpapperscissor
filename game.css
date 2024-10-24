@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(153, 204,102);
+}
+.container img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.topsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding:1rem;
+    color: white;
+    margin: 2rem 0rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.Score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 1rem;
+
+}
+.computerscore{ 
+ display: flex;
+ justify-content: center;
+ flex-direction: column; 
+ align-items: center;
+ padding: 2rem;
+ background-color: white;
+ border-radius: 10px;
+ width: 37%;
+}
+.yourscore{
+ display: flex;
+ justify-content: center;
+ flex-direction: column; 
+ align-items: center;
+ padding: 2rem;
+ margin-right: -20px;
+ background-color: white;
+ border-radius: 10px;
+ width: 35%;
+}
+.middlesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+
+}
+.middlesection img{
+    margin: 1rem 2rem;
+    cursor: pointer;
+    transition: .2s all ease-in-out ;
+}
+.middlesection img:hover{
+    transform:scale(1.10)
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 50rem;
+
+}
+.rule-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 2rem;
+
+}
+.nxt-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 80px;
+    border-radius: 5px;
+
+} 
+
+.box{
+    position: absolute;
+    width: 252px;
+    height: 300px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border: 5px solid white;
+    display: flex;
+    justify-content: right;
+    margin-left: 50rem;
+    
+}
+.rules {
+    position:absolute;
+    width: 95%;
+    height: 200px;
+    padding: 10px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-box{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+.icon-btn{
+    position:absolute;
+    margin-right: 10px;
+    background-color: red;
+    border-radius: 51px;
+    padding: 11px;
+    margin: 10px -21px 58px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.bottomsection{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.user,.result,.computer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    margin: 2rem 0rem;
+    color: white;
+
+}
+.user img,.computer img{
+    padding: 1rem 0rem;
+}
+
+.result  h3{
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.result button{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.showresult{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.showresult h2{
+    padding: 0rem 0rem 1.5rem 0rem;
+
+}
+
+.showresult button{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
